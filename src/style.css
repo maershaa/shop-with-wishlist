@@ -252,3 +252,8 @@ header nav {
   font-size: 1.5rem;
   font-weight: 700;
 }
+
+.favourite-btn img {
+  width: 25px;
+  height: 25px;
+}

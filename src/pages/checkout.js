@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const listEl = document.querySelector('.js-checkout-list');
 const totalEl = document.querySelector('.total');
-console.log('🚀 ~ state.basketArray:', state.basketArray);
 
 createMarkup(state.basketArray, listEl);
 

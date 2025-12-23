@@ -1,4 +1,6 @@
 import { state } from '../constants/state';
+import heartAdd from '../assets/not-favourite.svg';
+import heartFilled from '../assets/is-favourite.svg';
 
 function createMarkup(arr, list) {
   let markup;
@@ -14,8 +16,10 @@ function createMarkup(arr, list) {
         <a href="#" class="js-info"> More information </a>
         </p>
         <div>
-          <button class="js-favourite"> ${
-            !isInFavourite ? 'Add to favourite' : 'Delete from favourite'
+          <button class="js-favourite favourite-btn "> ${
+            !isInFavourite
+              ? `<img src="${heartAdd}" alt="Add to favourite" />`
+              : `<img src="${heartFilled}" alt="Delete from favourite" />`
           } </button>
             <button class="js-basket">Add to basket</button>
         </div>
