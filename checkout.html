@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHECKOUT PAGE</title>
+</head>
+
+<body data-page="checkout">
+  <div id="app">
+    <header>
+      <h1 class="logo">
+        <a href="index.html">MySite</a>
+      </h1>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html" data-page="home">Home</a></li>
+          <li><a href="favourite.html" data-page="favourite">Favourite</a></li>
+          <li><a href="checkout.html" data-page="checkout">Checkout</a></li>
+        </ul>
+      </nav>
+    </header>
+    <ul class="js-checkout-list"> </ul>
+
+    <p class="total"></p>
+  </div>
+  <script type="module" src="/src/pages/checkout.js"></script>
+
+</body>
+
+</html>
