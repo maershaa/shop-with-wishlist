@@ -7,6 +7,8 @@ import { resolve } from 'path';
 
 export default defineConfig({
   build: {
+    base: '/shop-with-wishlist/',
+
     // Настройки сборки через Rollup (Vite использует Rollup под капотом)
     rollupOptions: {
       // Здесь мы вручную указываем все HTML-файлы,
