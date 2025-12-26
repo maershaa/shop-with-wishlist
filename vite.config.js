@@ -21,7 +21,7 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
 
         // Страница "Избранное"
-        favourites: resolve(__dirname, 'favourites.html'),
+        favourites: resolve(__dirname, 'favourite.html'),
 
         // Страница "Оформление заказа"
         checkout: resolve(__dirname, 'checkout.html'),
